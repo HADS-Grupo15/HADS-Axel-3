@@ -104,6 +104,7 @@
     <Content Include="Inicio.aspx" />
     <Content Include="CambiarPassword.aspx" />
     <Content Include="CambiarPassword2.aspx" />
+    <Content Include="Profesores\ImportarXML.aspx" />
     <Content Include="Profesores\InsertarTarea.aspx" />
     <Content Include="Profesores\Profesor.aspx" />
     <Content Include="Profesores\TareasProfesor.aspx" />
@@ -189,6 +190,13 @@
       <DependentUpon>CambiarPassword2.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Profesores\ImportarXML.aspx.designer.vb">
+      <DependentUpon>ImportarXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores\ImportarXML.aspx.vb">
+      <DependentUpon>ImportarXML.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Profesores\InsertarTarea.aspx.designer.vb">
       <DependentUpon>InsertarTarea.aspx</DependentUpon>
     </Compile>
@@ -231,8 +239,6 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Include="My Project\PublishProfiles\HADS15oscaraxel - FTP.pubxml" />
-    <None Include="My Project\PublishProfiles\HADS15oscaraxel - Web Deploy.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
